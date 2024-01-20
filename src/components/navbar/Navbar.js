@@ -32,7 +32,7 @@ const Navbar = () => {
           </Link>
         </span>
         <a
-          href="https://drive.google.com/file/d/1iuLy_WEN8hBsP4TSxvYzMYwwiwPo0kTD/view?usp=drive_link"
+          href="https://drive.google.com/file/d/1iuLy_WEN8hBsP4TSxvYzMYwwiwPo0kTD/view"
           target="_blank"
         >
           <button className="nav-resume-btn slide-btn">Resume</button>
