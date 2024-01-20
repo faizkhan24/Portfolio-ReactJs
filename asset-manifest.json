@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/Portfolio-ReactJs/static/css/main.9608a4ce.css",
+    "main.js": "/Portfolio-ReactJs/static/js/main.45cc489a.js",
+    "static/media/contactimg.gif": "/Portfolio-ReactJs/static/media/contactimg.d548ae45fbd79060d48d.gif",
+    "static/media/Screenshot 2024-01-19 203338.png": "/Portfolio-ReactJs/static/media/Screenshot 2024-01-19 203338.e80744417bfadafb46c1.png",
+    "static/media/overlay-img.png": "/Portfolio-ReactJs/static/media/overlay-img.bad26dc9cd8798f06e25.png",
+    "static/media/20240106_210852 (2).jpg": "/Portfolio-ReactJs/static/media/20240106_210852 (2).53f9ded7bd139062c9f9.jpg",
+    "static/media/Screenshot 2024-01-19 184405.png": "/Portfolio-ReactJs/static/media/Screenshot 2024-01-19 184405.3bb66038f58a13048ba4.png",
+    "static/media/redux.png": "/Portfolio-ReactJs/static/media/redux.df7d654653f8dca06c92.png",
+    "static/media/ss.png": "/Portfolio-ReactJs/static/media/ss.0a696a10c6b7628a149e.png",
+    "static/media/pngegg (19).png": "/Portfolio-ReactJs/static/media/pngegg (19).caafbb5567c905e583e8.png",
+    "static/media/aboutimg.jpg": "/Portfolio-ReactJs/static/media/aboutimg.2f7bcada18df3c3db82d.jpg",
+    "static/media/react.png": "/Portfolio-ReactJs/static/media/react.dceaa1723fa4b0f19ff5.png",
+    "static/media/git.png": "/Portfolio-ReactJs/static/media/git.b5723d2fd09355d535e5.png",
+    "static/media/sass.png": "/Portfolio-ReactJs/static/media/sass.b4856dfeb58fd76614f8.png",
+    "static/media/css.png": "/Portfolio-ReactJs/static/media/css.e31e30fbd381c3f058df.png",
+    "static/media/edit2.jpg": "/Portfolio-ReactJs/static/media/edit2.e01e86dcb0263f79bd17.jpg",
+    "static/media/html.png": "/Portfolio-ReactJs/static/media/html.5139eb66b02855a1c137.png",
+    "static/media/js.png": "/Portfolio-ReactJs/static/media/js.60dbbe1569571db1eda7.png",
+    "static/media/tailwind.png": "/Portfolio-ReactJs/static/media/tailwind.ff6c37743087090a2580.png",
+    "index.html": "/Portfolio-ReactJs/index.html",
+    "main.9608a4ce.css.map": "/Portfolio-ReactJs/static/css/main.9608a4ce.css.map",
+    "main.45cc489a.js.map": "/Portfolio-ReactJs/static/js/main.45cc489a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9608a4ce.css",
+    "static/js/main.45cc489a.js"
+  ]
+}
