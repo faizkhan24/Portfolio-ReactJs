@@ -1,0 +1,14 @@
+.email-sent-msg {
+  font-family: var(--font-ubuntu);
+  height: 100%;
+  color: var(--blue);
+  position: absolute;
+  top: 0;
+  right: -3vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.email-sent-msg img {
+  margin-right: 1vw;
+}

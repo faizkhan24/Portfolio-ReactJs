@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1001,
+    "name": "FriendlyMeal",
+    "techUsed": ["React", "Redux Toolkit", "React-router", "Css"],
+    "desc": [
+      "Developed performant ecommerce website using React routing, lazy loading, and optimized search.",
+      "Implemented CRUD functionality to create, read, update, and delete products and data.",
+      "Optimized for all devices: desktop, tablet, and mobile."
+    ]
+  },
+  {
+    "id": 1002,
+    "name": "Portfolio",
+    "techUsed": ["React", "EmailJs", "Css"],
+    "desc": [
+      "Developed a visually appealing portfolio website with smooth animations on scroll.",
+      "Included a user-friendly contact form to easily get in touch with me directly from the website.",
+      "Optimized for all devices: desktop, tablet, and mobile."
+    ]
+  }
+]

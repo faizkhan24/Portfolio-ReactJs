@@ -1,0 +1,150 @@
+.home-section {
+  padding: 7.5rem 0;
+  margin-bottom: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.home-page h1 {
+  color: #bababa;
+  font-size: 54px;
+  position: relative;
+}
+.home-page h1::before {
+  content: "Faiz";
+  /* color:#242124; */
+  color: #26282a;
+  font-size: 11rem;
+  position: absolute;
+  top: -8rem;
+  left: -8rem;
+  z-index: -1;
+}
+.first-block {
+  display: inline-block;
+  animation: firstBlockAnim 0.75s ease-in-out;
+}
+.second-block {
+  display: inline-block;
+  animation: secondBlockAnim 1.5s ease-in-out;
+}
+.third-block {
+  display: inline-block;
+  animation: thirdBlockAnim 2s ease-in-out;
+}
+.fourth-block {
+  display: inline-block;
+  animation: fourthBlockAnim 2.5s ease-in-out;
+}
+@keyframes firstBlockAnim {
+  from {
+    opacity: 0;
+    transform: translateX(-50%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes secondBlockAnim {
+  0% {
+    opacity: 0;
+  }
+  70% {
+    opacity: 0;
+    transform: translateY(-50%);
+  }
+  90% {
+    opacity: 0.5;
+    transform: translateY(5%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes thirdBlockAnim {
+  0% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0;
+    transform: translateX(-15%);
+  }
+  90% {
+    opacity: 0.5;
+    transform: translateX(0.5%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes fourthBlockAnim {
+  0% {
+    opacity: 0;
+  }
+  85% {
+    opacity: 0;
+    transform: translateX(-15%);
+  }
+  90% {
+    opacity: 0.5;
+    transform: translateX(0.5%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.home-page {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.hero-btn {
+  outline: none;
+  font-size: 18px;
+  background: transparent;
+  border: 1px solid var(--blue);
+  color: var(--blue);
+  padding: 6px 20px;
+  width: 160px;
+  cursor: pointer;
+  font-family: var(--font-acme);
+  position: relative;
+  transition: 0.2s color ease-in-out;
+}
+.hero-btn:hover {
+  color: white;
+}
+.home-page-img {
+  position: relative;
+  top: 15px;
+  left: 25px;
+  opacity: 0.8;
+}
+.developer-img {
+  border-radius: 50%;
+}
+/* @keyframes secondBlockAnim{
+    from{
+        opacity: 0;
+        transform:translateX(-100%) ;
+    }
+    to{
+        opacity: 1;
+        transform:translateX(0) ;
+    }
+}
+@keyframes thridBlockAnim{
+    from{
+        opacity: 0;
+        transform:translateX(-100%) ;
+    }
+    to{
+        opacity: 1;
+        transform:translateX(0) ;
+    }
+} */

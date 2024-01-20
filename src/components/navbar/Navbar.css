@@ -1,0 +1,70 @@
+.nav-container {
+  top: 0;
+  left: 0;
+  position: fixed;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+.nav-left {
+  padding-left: 50px;
+  font-family: var(--font-ubuntu);
+  cursor: pointer;
+}
+.nav-right {
+  padding-right: 50px;
+  font-family: var(--font-ubuntu);
+}
+.nav-left p {
+  color: var(--blue);
+  font-size: 22px;
+  font-weight: bold;
+  font-family: var(--font-acme);
+}
+.nav-link {
+  font-size: 16px;
+  font-weight: 450;
+  color: var(--blue);
+  color: #a0a0a0;
+  cursor: pointer;
+  padding: 0 3px 0 2px;
+  position: relative;
+  margin: 0 10px;
+}
+.nav-link:hover {
+  color: white;
+}
+.nav-resume-btn {
+  outline: none;
+  font-size: 13px;
+  background: transparent;
+  border: 1px solid var(--blue);
+  color: var(--neon);
+  /* border-radius: 5px; */
+  cursor: pointer;
+  padding: 10px 15px;
+  margin-left: 26px;
+  position: relative;
+  transition: 0.2s color ease-in-out;
+}
+.nav-resume-btn:hover {
+  color: black;
+}
+.nav-right .slide-btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 0;
+  width: 100%;
+  background: var(--blue);
+  z-index: -1;
+  transition: 0.2s height ease-in-out;
+}
+.nav-right .slide-btn:hover::before {
+  height: 100%;
+}

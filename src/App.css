@@ -1,0 +1,18 @@
+.main {
+  position: relative;
+  /* min-height: 100vh; */
+  scroll-behavior: smooth;
+}
+.main-content {
+  position: relative;
+  z-index: 4;
+  padding: 0 120px;
+  background-color: black;
+}
+.slide-out {
+  position: sticky;
+  bottom: 0;
+  height: 100vh;
+  background-color: #098eec;
+  /* #05386B,#501B1D,#1F2833,#116466 */
+}

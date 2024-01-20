@@ -1,0 +1,79 @@
+.skills-section{
+    display: flex;
+    align-items: center;
+    height: 40rem;
+    margin-bottom: 5rem;
+}
+.skills-page{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.skills-section h1{
+    margin-left:15px;
+    font-size: 40px;
+    color: #bababa;
+    position: relative;
+}
+.skills-section span{
+    margin-top: 8px;
+    font-size: 13px;
+}
+.flex-row-center{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+.skills-section h1::after{
+    content: '';
+    position: absolute;
+    bottom: 21px;
+    right: 3rem;
+    height: 3px;
+    width: 85%;
+    background: var(--neon);
+}
+.skills-section h1::before{
+    content:'Skills';
+    /* color:#242124; */
+    color:#26282A;
+    font-size: 10rem;
+    position: absolute;
+    top: -6rem;
+    left: -2rem;
+    z-index: -1;
+}
+.skills-icons-set{
+    font-family: var(--font-ubuntu);
+    margin-top:2rem;
+}
+.skills-icon{
+    width: 5rem;
+    height: 5rem;
+    padding: 1rem;
+    border: 1px solid #bababa;
+    margin: 1.5rem;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #121317;
+}
+.skills-icons-set-familiar{
+    margin-top: 35px;
+}
+.skills-icons-set-familiar p{
+    margin-right: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fam{
+    margin: 1.5rem 1.2rem;
+}
