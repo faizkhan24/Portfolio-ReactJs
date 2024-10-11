@@ -10,6 +10,7 @@ import {
   git_icon,
   tailwind_icon,
   bootstrap_icon,
+  next_js,
 } from "../../utils/images";
 
 const SkillsPage = () => {
@@ -38,6 +39,10 @@ const SkillsPage = () => {
             <div className="skills-icon">
               <img src={react_icon} width="48px" alt="" />
               <span>React</span>
+            </div>
+            <div className="skills-icon">
+              <img src={next_js} width="48px" alt="" />
+              <span>Next Js</span>
             </div>
             <div className="skills-icon">
               <img src={redux_icon} width="48px" alt="" />

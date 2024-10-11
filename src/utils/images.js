@@ -13,6 +13,7 @@ import overlay from "../assets/images/overlay-img.png";
 import ss from "../assets/images/ss.png";
 import food_pc from "../assets/images/Screenshot 2024-01-19 203338.png";
 import portfolio_pc from "../assets/images/Screenshot 2024-01-19 184405.png";
+import next_js from "../assets/images/nextjs-icon.png"
 
 export {
   html_icon,
@@ -29,4 +30,5 @@ export {
   food_pc,
   portfolio_pc,
   git_icon,
+  next_js,
 };
